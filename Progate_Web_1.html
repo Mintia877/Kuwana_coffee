@@ -28,7 +28,7 @@
             padding: 20px;
             background-color: #FFF;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
         }
 
         .cafe-section {
@@ -61,13 +61,30 @@
             border-left: 5px solid #A0785A;
         }
 
+        .li2 {
+            background: #F4F2EB;
+            margin: 5px 0;
+            padding: 10px;
+            border-left: 5px solid #2ea0ce;
+        }
+
         .city-info {
             background-color: #E6E0D3;
             padding: 15px;
             border-radius: 8px;
             margin-top: 20px;
             text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
+
+        .city-info2 {
+            background-color: #E6E0D3;
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 5px;
+            text-align: center;
+        }
+
 
         .store-info {
             background-color: #FFF9F0;
@@ -75,17 +92,34 @@
             padding: 10px;
             margin: 15px 0;
             border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
         }
 
-        .store-info h4 {
-            margin-top: 0;
-            color: #6A4524;
-        }
+        .store-info2 {
+            background-color: #a9d2e6;
+            border: 1px solid #D1C4B4;
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 
-        .map-section {
-            margin-top: 30px;
-            text-align: center;
-        }
+            .store-website {
+                background-color: #FFF9F0;
+                border: 1px solid #D1C4B4;
+                padding: 10px;
+                margin: 15px 0;
+                border-radius: 5px;
+            }
+
+            .store-info h4 {
+                margin-top: 0;
+                color: #6A4524;
+            }
+
+            .map-section {
+                margin-top: 30px;
+                text-align: center;
+            }
     </style>
 </head>
 
@@ -96,7 +130,7 @@
         <p>桑名市でホッと一息つける、お気に入りの喫茶店を見つけませんか？</p>
 
         <div class="city-info">
-            <h3>桑名市について</h3>
+            <h2 class=city-info2>桑名市について</h2>
             <p>
                 三重県桑名市は、歴史ある城下町であり、東海道五十三次の宿場町としても栄えました。
                 「その手は桑名の焼き蛤」で知られるハマグリや、長島スパーランドなどの観光名所も魅力です。
@@ -114,18 +148,23 @@
             <div class="store-info">
                 <h4>コメダ珈琲店 桑名中央通店</h4>
                 <ul>
-                    <li>住所 三重県桑名市中央町４丁目２６−２６−２</li>
+                    </li>
                     <li>営業時間 7:00～22:00</li>
-                    <li>ウェブサイト (https://www.komeda.co.jp/shop/detail.html?id=236)</li>
+                    <li><a href="https://www.komeda.co.jp/">コメダ珈琲店</a> ウェブサイト</li>
+                    <li>住所 三重県桑名市中央町4丁目26−26−2
+                        <a href="https://maps.app.goo.gl/mkuA6vdqXmChirCL6" target="_blank">
+                            Map</a>　※Googleマップに移動します
                 </ul>
             </div>
 
             <div class="store-info">
                 <h4>タリーズコーヒー くわなメディアライヴ店</h4>
                 <ul>
-                    <li>住所 三重県桑名市中央町３丁目７９ くわなメディアライヴ 1F</li>
                     <li>営業時間 9:00～20:00</li>
-                    <li>ウェブサイト (https://shop.tullys.co.jp/detail/1440238)</li>
+                    <li><a href="https://www.tullys.co.jp/">コメダ珈琲店</a> ウェブサイト</li>
+                    <li>住所 三重県桑名市中央町3丁目79 くわなメディアライヴ 1F
+                        <a href="https://maps.app.goo.gl/LHTqFV7tYqymp7F77" target="_blank">
+                            Map</a>　※Googleマップに移動します
                 </ul>
             </div>
         </div>
@@ -139,21 +178,21 @@
                 桑名ならではの落ち着いた雰囲気の中で、特別な一杯を楽しめます。
             </p>
 
-            <div class="store-info">
+            <div class="store-info2">
                 <h4>ホリ珈琲</h4>
                 <ul>
-                    <li>住所 三重県桑名市中央町２丁目１１ 11番地</li>
-                    <li>営業時間 8:00～20:30</li>
-                    <li>ウェブサイト (https://hori-coffee.co.jp/)</li>
+                    <li class="li2">住所 三重県桑名市中央町２丁目１１ 11番地</li>
+                    <li class="li2">営業時間 8:00～20:30</li>
+                    <li class="li2">ウェブサイト (https://hori-coffee.co.jp/)</li>
                 </ul>
             </div>
 
-            <div class="store-info">
+            <div class="store-info2">
                 <h4>Café Moelleux（カフェ.モエル）</h4>
                 <ul>
-                    <li>住所 三重県桑名市新西方２丁目166番地</li>
-                    <li>営業時間 11:00～16:30</li>
-                    <li>ウェブサイト (https://maps.app.goo.gl/9yG9713WwTjEa9S88)</li>
+                    <li class="li2">住所 三重県桑名市新西方２丁目166番地</li>
+                    <li class="li2">営業時間 11:00～16:30</li>
+                    <li class="li2">ウェブサイト (https://maps.app.goo.gl/9yG9713WwTjEa9S88)</li>
                 </ul>
             </div>
         </div>
